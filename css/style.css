@@ -7,12 +7,14 @@
 
 body{
   font-family: 'Rubik Mono One', sans-serif;
+  z-index: 0;
 }
 /*Proprietà BODY ,INIZIO NAV*/
 
 nav{
   position: fixed;
   right: 10px;
+  z-index: 2;
 }
 
 li{
@@ -35,19 +37,19 @@ li > a{
 }
 /* FINE NAV, INIZIO SFONDI SEZIONI */
 
-#s1{
+#section1{
   background-color: #ff1717;
   height: 100vh;
   color: #faee14;
 }
 
-#s2{
+#section2{
   background-color: #1cd43d;
   height: 100vh;
   color: #faee14;
 }
 
-#s3{
+#section3{
   background-color: #faee14;
   height: 100vh;
   color: #1cd43d;
